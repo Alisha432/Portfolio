@@ -34,7 +34,7 @@
 
 
 .btn-purple{
-    color: var(--purplecolor);
+    color: var(--purplecolor); 
      font-family: robotto !important;
      border: 1px solid var(--purplecolor);
     font-weight: 400 !important;
@@ -44,3 +44,20 @@
 }
 
    /* Navbar end */
+
+
+   /* Hero Section Start */
+
+.hero{
+     background-color: #F5FCFF;
+    
+}
+
+.hero{
+     font-family: robotto !important;
+    
+}
+.design{
+     color: var(--purplecolor);
+}
+   /* Hero Section End */
