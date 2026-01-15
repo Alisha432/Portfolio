@@ -93,5 +93,29 @@
 .para{
     color:#1C1E53 ;
 }
+  
+
+.imgdiv{
+    width: 100%;
+}
+.chase{
+    width: 100%;
+}
+
+.about{
+   width:  100%;
+}
+
+
+.card-body button{
+    padding: 15px;
+    outline: none !important;
+    border: none !important;
+    border-bottom: 3px solid var(--purplecolor) !important;
+    
+    background: transparent;
+}
+
+
 /* About me section end */
 
