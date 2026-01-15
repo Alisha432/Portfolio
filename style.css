@@ -119,3 +119,19 @@
 
 /* About me section end */
 
+
+/* tetimonials start */
+
+.avatar{
+    border-radius: 50%;
+    width: 23%;
+}
+.avatar img{
+    width: 100%;
+}
+
+.macdi{
+    padding-left: 22px;
+    padding-top: 3px;
+}
+
