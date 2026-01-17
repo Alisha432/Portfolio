@@ -309,9 +309,15 @@
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros.
               </p>
-              <button>
-                View In Dribbble <i class="fa-solid fa-square-up-right"></i>
-              </button>
+                <div class="d-flex">
+                <div class="avatar">
+                  <img src="./images/Avatar Image (1).svg" alt="" />
+                </div>
+                <div class="d-flex flex-column macdi">
+                  <h5>Dianne Russell</h5>
+                  <h6>McDonald's</h6>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -330,9 +336,15 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros.
               </p>
-              <button>
-                View In Dribbble <i class="fa-solid fa-square-up-right"></i>
-              </button>
+                <div class="d-flex">
+                <div class="avatar">
+                  <img src="./images/Avatar Image.png" alt="" />
+                </div>
+                <div class="d-flex flex-column macdi">
+                  <h5>Kristin Watson</h5>
+                  <h6>Louis Vuitton</h6>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -354,7 +366,7 @@
               </p>
               <div class="d-flex">
                 <div class="avatar">
-                  <img src="./images/Avatar Image.png" alt="" />
+                  <img src="./images/Avatar Image (2).svg" alt="" />
                 </div>
                 <div class="d-flex flex-column macdi">
                   <h5>Kathryn Murphy</h5>
@@ -369,13 +381,109 @@
 
     <!-- testimonials section end -->
 
+
+    
+    <!-- forms start -->
+     
+    <div class="container-fluid px-5 py-5">
+      <div class="container-fluid px-5 py-5 d-flex flex-column justify-content-center">
+        <h6>Get in touch</h6>
+      <h2>Contact me</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+      <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example1">First name</label>
+              <input type="text" id="form6Example1" class="form-control" />
+            </div>
+          </div>
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example2">Last name</label>
+              <input type="text" id="form6Example2" class="form-control" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example1">Contact</label>
+              <input type="text" id="form6Example1" class="form-control" />
+            </div>
+          </div>
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example2">Phone Number</label>
+              <input type="text" id="form6Example2" class="form-control" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Email input -->
+        <div class="col-md-5">
+          <label for="country" class="form-label">Choose a topic</label>
+          <select class="form-select" id="country" required="">
+            <option value="">Select one...</option>
+            <option>United States</option>
+          </select>
+          <div class="invalid-feedback">Please select a valid country.</div>
+        </div>
+
+
+        <!-- Message input -->
+          <label class="form-label" for="form6Example7"
+            >Message</label
+          >
+        
+        <div data-mdb-input-init class="form-outline mb-4 py-3">
+          <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+         
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-start mb-4">
+         
+          <input
+            class="form-check-input me-2"
+            type="checkbox"
+            value=""
+            id="form6Example8"
+            checked
+            placeholder="Type your message..."
+          />
+        <div class="justify-content-start">
+            <label class="form-check-label" for="form6Example8">
+            I accept the terms
+          </label>
+        </div>
+        </div>
+
+        <!-- Submit button -->
+       <div class="justify-content-center">
+         <button 
+          data-mdb-ripple-init
+          type="button"
+          class="btn btn-primary btn-block mb-4 justify-content-center"
+        >
+          Submit
+        </button>
+       </div>
+      </form>
+    </div>
+
+    <!-- forms end -->
+
     <!-- Footer section start -->
 
     <div class="container-fluid px-5 py-5">
       <footer
-        class="d-flex flex-wrap justify-content-between align-items-center px-3 py-3 my-4 border-top"
+        class="d-flex flex-wrap justify-content-lg-between align-items-center px-3 py-3 my-4 border-top"
       >
-        <div>
+        <div class="d-flex ">
           <img src="./images/Logo.svg" alt="" />
         </div>
         <!-- <a
@@ -403,47 +511,15 @@
             >
           </li>
         </ul>
-        <div class="justify-content-end food">
+        <div class="justify-content-end ">
           <span><img src="./images/Facebook.svg" alt="" class="fb" /></span>
           <span><img src="./images/Instagram.png" alt="" class="fb" /></span>
           <span><img src="./images/Twitter.png" alt="" class="fb" /></span>
           <span><img src="./images/LinkedIn.png" alt="" class="fb" /></span>
         </div>
-   <hr>
-   
-  <div class="container-fluid"> 
-    <div class="col-md-4 d-flex align-items-start">
-       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
-      
-
-        <span class="mb-3 mb-md-0 text-body-secondary">Made with 💖 by Airdokan</span> 
-
-      </div> 
-         <ul class="nav col-md-4 justify-content-end nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">About me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary"
-              >Testimonials</a
-            >
-          </li>
-        </ul>
-    </div>
+ 
       </footer>
-    
-
-    <!-- Footer section end -->
-
+</div>
     <script src="bootstrap.js"></script>
   </body>
 </html>
